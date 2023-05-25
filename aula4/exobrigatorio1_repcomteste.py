@@ -7,9 +7,7 @@ for w in range(0, n, +1):
     lista.insert(z, num)
     z += 1
 for i in range(len(lista)):
-    if lista[i] > 0:
-        print(lista[i])
-    else:
-        print("1")
+    if lista[i] <= 0:
+        lista[i] = 1
     i += 1
-
+print(lista)
