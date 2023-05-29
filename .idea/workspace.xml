@@ -29,7 +29,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ex1_obrigatorio_while">
+  <component name="RunManager" selected="Python.ex2_obrigatorio_while">
     <configuration name="aula6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exobrigatorio1_repcomteste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex2_obrigatorio_while" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula4/exobrigatorio1_repcomteste.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula6/ex2_obrigatorio_while.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex2_obrigatorio_while" />
         <item itemvalue="Python.ex1_obrigatorio_while" />
         <item itemvalue="Python.ex2_extra_while" />
         <item itemvalue="Python.ex1_extra_while" />
         <item itemvalue="Python.aula6" />
-        <item itemvalue="Python.exobrigatorio1_repcomteste" />
       </list>
     </recent_temporary>
   </component>
