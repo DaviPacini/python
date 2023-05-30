@@ -1,21 +1,17 @@
-entrada = 0
-total = 0
-pares = 0
-cont = 0
-
-
+i = 0
+par = 0
+soma = 0
 while True:
- entrada = int(input("\n\n\tDigite o valor: "))
+    n = int(input("Informe um valor inteiro: \n"))
+    i += 1
+    soma += n
+    media = soma / i
+    npar = n % 2
+    if npar == 0:
+        par += 1
+    porcpar = (par / i)*100
 
-
- cont+=1
- if entrada % 2 == 0: pares+=1
- total += entrada
-
-
- print("\n\t"+"*"*40)
- print("\t*"+f" Quantidade de elementos: \t{cont}")
- print("\t*"+f" Soma dos valores: \t\t{total}")
- print("\t*"+f" Media dos valores: \t\t{total/cont:.2f}")
- print("\t*"+f" Total de pares: \t\t\t{(float(pares/cont))*100:.2f}%")
- print("\t"+"*"*40)
+    print("\t*"+"Quantidade de elementos:  %d"%(i) )
+    print("\t*"+"Soma dos valores:  %d"%(soma))
+    print("\t*"+"Média dos valores:  %.2f"%(media))
+    print("\t*"+"Total de pares:  %.2f"%(porcpar)+"%")
