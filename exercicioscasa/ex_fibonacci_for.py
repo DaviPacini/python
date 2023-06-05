@@ -7,8 +7,8 @@ if n == 1 or n == 2:
 
 else:
 
-    for i in range(n-2):
+    while i < n:
         y = fibonacci[i-1] + fibonacci[i - 2]
         fibonacci.append(y)
-        i += 4
+        i +=
     print(fibonacci)
